@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#passions">Passions</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to My Personal Website</h1>
+            <p>Get to know the real me.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm [Your Name]. I have a passion for [Your Passions]...</p>
+            <img src="your-photo.jpg" alt="Your Photo">
+        </section>
+        <section id="timeline">
+            <h2>Timeline</h2>
+            <ul class="timeline">
+                <li><strong>2023:</strong> Started my personal blog</li>
+                <li><strong>2021:</strong> Launched my first startup</li>
+                <li><strong>2019:</strong> Graduated from University</li>
+                <!-- Add more milestones -->
+            </ul>
+        </section>
+        <section id="passions">
+            <h2>Passions & Interests</h2>
+            <p>I love [Hobby/Interest] and spend my free time [Activity]...</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Latest Adventures</h3>
+                <p>This week, I [describe your recent activity]...</p>
+            </div>
+            <!-- Add more blog posts -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Or reach out via <a href="mailto:your-email@example.com">email</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved. | <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
