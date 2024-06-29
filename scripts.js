@@ -31,3 +31,4 @@ document.addEventListener('DOMContentLoaded', () => {
         hero.style.backgroundPositionY = offset * 0.7 + 'px';
     });
 });
+
