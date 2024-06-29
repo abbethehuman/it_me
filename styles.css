@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comic Neue', cursive;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+    position: relative;
+    animation: fadeIn 2s ease-in-out;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #ff6363;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ff6363;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea {
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #ff6363;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #e55353;
+}
